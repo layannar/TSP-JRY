@@ -1,0 +1,14 @@
+public class MyCodeTest {
+
+    @Test
+    public void testAddition() {
+        // Arrange
+        int a = 5;
+        int b = 10;
+        
+        // Act
+        int result = a + b; // Replace with your actual method call
+        
+        // Assert
+        assertEquals(15, result, "The addition result should be 15");
+    }
